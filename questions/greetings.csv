@@ -1,0 +1,111 @@
+id,category,intent,question
+1,greetings,greetings,Hello
+2,greetings,greetings,Hi
+3,greetings,greetings,Good morning
+4,greetings,greetings,Good afternoon
+5,greetings,greetings,Good evening
+6,greetings,greetings,Good night
+7,greetings,greetings,Hey
+8,greetings,greetings,Hey there
+9,greetings,greetings,Hello there
+10,greetings,greetings,Namaste
+11,greetings,greetings,Hola
+12,greetings,greetings,Howdy
+13,greetings,greetings,Sup
+14,greetings,greetings,What is up
+15,greetings,greetings,Whats up
+16,greetings,greetings,Start
+17,greetings,greetings,Hi Kathaa
+18,greetings,greetings,Hello Kathaa
+19,greetings,greetings,Hey Kathaa
+20,greetings,greetings,Hi bot
+21,greetings,greetings,Hello bot
+22,greetings,greetings,Hey bot
+23,greetings,thanks,Thanks
+24,greetings,thanks,Thank you
+25,greetings,thanks,Thank u
+26,greetings,thanks,Thx
+27,greetings,thanks,Tq
+28,greetings,thanks,Thank you so much
+29,greetings,thanks,Thanks a lot
+30,greetings,thanks,Thankyou
+31,greetings,thanks,Dhanyawad
+32,greetings,thanks,Shukriya
+33,greetings,thanks,Much appreciated
+34,greetings,thanks,Awesome thanks
+35,greetings,thanks,Great thanks
+36,greetings,thanks,Okay thanks
+37,greetings,thanks,Ok thanks
+38,greetings,thanks,Thanks Kathaa
+39,greetings,thanks,Thank you Kathaa
+40,greetings,thanks,Thanks a ton
+41,greetings,sorry,Sorry
+42,greetings,sorry,My bad
+43,greetings,sorry,Oops
+44,greetings,sorry,Apologies
+45,greetings,sorry,So sorry
+46,greetings,sorry,I am sorry
+47,greetings,sorry,Sorry Kathaa
+48,greetings,sorry,Maaf karna
+49,greetings,sorry,Sorry about that
+50,greetings,sorry,Oops sorry
+51,greetings,who_are_you,Who are you
+52,greetings,who_are_you,Who r u
+53,greetings,who_are_you,Who r you
+54,greetings,who_are_you,Who are u
+55,greetings,who_are_you,What is your name
+56,greetings,who_are_you,Your name
+57,greetings,who_are_you,Who is Kathaa
+58,greetings,who_are_you,About you
+59,greetings,who_are_you,What are you
+60,greetings,who_are_you,Are you ai
+61,greetings,who_are_you,Are you a bot
+62,greetings,who_are_you,Are you human
+63,greetings,who_are_you,Who made you
+64,greetings,who_are_you,Tell me about yourself
+65,greetings,who_are_you,What is KathaaAI
+66,greetings,why_are_you_here,Why are you here
+67,greetings,why_are_you_here,Why r u here
+68,greetings,why_are_you_here,Why are u here
+69,greetings,why_are_you_here,Why are you here?
+70,greetings,why_are_you_here,What do you do
+71,greetings,why_are_you_here,How can you help me
+72,greetings,why_are_you_here,What is your purpose
+73,greetings,why_are_you_here,What can you do
+74,greetings,why_are_you_here,Why are you on this website
+75,greetings,why_are_you_here,What are your capabilities
+76,greetings,why_are_you_here,What can u do
+77,greetings,why_are_you_here,Why do you exist
+78,greetings,why_are_you_here,How can u help
+79,greetings,why_are_you_here,What is this bot for
+80,greetings,why_are_you_here,What can this bot do
+81,greetings,how_are_you,How are you
+82,greetings,how_are_you,How r u
+83,greetings,how_are_you,How are u
+84,greetings,how_are_you,How are you doing
+85,greetings,how_are_you,How r u doing
+86,greetings,how_are_you,How is it going
+87,greetings,how_are_you,How do you do
+88,greetings,how_are_you,Kaise ho
+89,greetings,how_are_you,Kaisa hai
+90,greetings,how_are_you,Hows it going
+91,greetings,goodbye,Bye
+92,greetings,goodbye,Goodbye
+93,greetings,goodbye,See you
+94,greetings,goodbye,Talk to you later
+95,greetings,goodbye,Ttyl
+96,greetings,goodbye,Cya
+97,greetings,goodbye,Alvida
+98,greetings,goodbye,Tata
+99,greetings,goodbye,Exit
+100,greetings,goodbye,Close
+101,greetings,greetings,Hi there
+102,greetings,greetings,Hello friend
+103,greetings,thanks,Thanks bot
+104,greetings,sorry,Sorry bot
+105,greetings,who_are_you,Who are you?
+106,greetings,why_are_you_here,Why r you here
+107,greetings,how_are_you,How are u today
+108,greetings,goodbye,Bye bye
+109,greetings,greetings,Good morning Kathaa
+110,greetings,greetings,Good evening Kathaa

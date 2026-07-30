@@ -1,0 +1,101 @@
+id,category,intent,question
+1,emi_finance,emi_finance,Is EMI available?
+2,emi_finance,emi_finance,No-cost EMI available?
+3,emi_finance,emi_finance,Minimum purchase for EMI?
+4,emi_finance,emi_finance,Is EMI available?
+5,emi_finance,emi_finance,No-cost EMI available?
+6,emi_finance,emi_finance,Minimum purchase for EMI?
+7,emi_finance,emi_finance,Is EMI available?
+8,emi_finance,emi_finance,No-cost EMI available?
+9,emi_finance,emi_finance,Minimum purchase for EMI?
+10,emi_finance,emi_finance,Is EMI available?
+11,emi_finance,emi_finance,No-cost EMI available?
+12,emi_finance,emi_finance,Minimum purchase for EMI?
+13,emi_finance,emi_finance,Is EMI available?
+14,emi_finance,emi_finance,No-cost EMI available?
+15,emi_finance,emi_finance,Minimum purchase for EMI?
+16,emi_finance,emi_finance,Is EMI available?
+17,emi_finance,emi_finance,No-cost EMI available?
+18,emi_finance,emi_finance,Minimum purchase for EMI?
+19,emi_finance,emi_finance,Is EMI available?
+20,emi_finance,emi_finance,No-cost EMI available?
+21,emi_finance,emi_finance,Minimum purchase for EMI?
+22,emi_finance,emi_finance,Is EMI available?
+23,emi_finance,emi_finance,No-cost EMI available?
+24,emi_finance,emi_finance,Minimum purchase for EMI?
+25,emi_finance,emi_finance,Is EMI available?
+26,emi_finance,emi_finance,No-cost EMI available?
+27,emi_finance,emi_finance,Minimum purchase for EMI?
+28,emi_finance,emi_finance,Is EMI available?
+29,emi_finance,emi_finance,No-cost EMI available?
+30,emi_finance,emi_finance,Minimum purchase for EMI?
+31,emi_finance,emi_finance,Is EMI available?
+32,emi_finance,emi_finance,No-cost EMI available?
+33,emi_finance,emi_finance,Minimum purchase for EMI?
+34,emi_finance,emi_finance,Is EMI available?
+35,emi_finance,emi_finance,No-cost EMI available?
+36,emi_finance,emi_finance,Minimum purchase for EMI?
+37,emi_finance,emi_finance,Is EMI available?
+38,emi_finance,emi_finance,No-cost EMI available?
+39,emi_finance,emi_finance,Minimum purchase for EMI?
+40,emi_finance,emi_finance,Is EMI available?
+41,emi_finance,emi_finance,No-cost EMI available?
+42,emi_finance,emi_finance,Minimum purchase for EMI?
+43,emi_finance,emi_finance,Is EMI available?
+44,emi_finance,emi_finance,No-cost EMI available?
+45,emi_finance,emi_finance,Minimum purchase for EMI?
+46,emi_finance,emi_finance,Is EMI available?
+47,emi_finance,emi_finance,No-cost EMI available?
+48,emi_finance,emi_finance,Minimum purchase for EMI?
+49,emi_finance,emi_finance,Is EMI available?
+50,emi_finance,emi_finance,No-cost EMI available?
+51,emi_finance,emi_finance,Minimum purchase for EMI?
+52,emi_finance,emi_finance,Is EMI available?
+53,emi_finance,emi_finance,No-cost EMI available?
+54,emi_finance,emi_finance,Minimum purchase for EMI?
+55,emi_finance,emi_finance,Is EMI available?
+56,emi_finance,emi_finance,No-cost EMI available?
+57,emi_finance,emi_finance,Minimum purchase for EMI?
+58,emi_finance,emi_finance,Is EMI available?
+59,emi_finance,emi_finance,No-cost EMI available?
+60,emi_finance,emi_finance,Minimum purchase for EMI?
+61,emi_finance,emi_finance,Is EMI available?
+62,emi_finance,emi_finance,No-cost EMI available?
+63,emi_finance,emi_finance,Minimum purchase for EMI?
+64,emi_finance,emi_finance,Is EMI available?
+65,emi_finance,emi_finance,No-cost EMI available?
+66,emi_finance,emi_finance,Minimum purchase for EMI?
+67,emi_finance,emi_finance,Is EMI available?
+68,emi_finance,emi_finance,No-cost EMI available?
+69,emi_finance,emi_finance,Minimum purchase for EMI?
+70,emi_finance,emi_finance,Is EMI available?
+71,emi_finance,emi_finance,No-cost EMI available?
+72,emi_finance,emi_finance,Minimum purchase for EMI?
+73,emi_finance,emi_finance,Is EMI available?
+74,emi_finance,emi_finance,No-cost EMI available?
+75,emi_finance,emi_finance,Minimum purchase for EMI?
+76,emi_finance,emi_finance,Is EMI available?
+77,emi_finance,emi_finance,No-cost EMI available?
+78,emi_finance,emi_finance,Minimum purchase for EMI?
+79,emi_finance,emi_finance,Is EMI available?
+80,emi_finance,emi_finance,No-cost EMI available?
+81,emi_finance,emi_finance,Minimum purchase for EMI?
+82,emi_finance,emi_finance,Is EMI available?
+83,emi_finance,emi_finance,No-cost EMI available?
+84,emi_finance,emi_finance,Minimum purchase for EMI?
+85,emi_finance,emi_finance,Is EMI available?
+86,emi_finance,emi_finance,No-cost EMI available?
+87,emi_finance,emi_finance,Minimum purchase for EMI?
+88,emi_finance,emi_finance,Is EMI available?
+89,emi_finance,emi_finance,No-cost EMI available?
+90,emi_finance,emi_finance,Minimum purchase for EMI?
+91,emi_finance,emi_finance,Is EMI available?
+92,emi_finance,emi_finance,No-cost EMI available?
+93,emi_finance,emi_finance,Minimum purchase for EMI?
+94,emi_finance,emi_finance,Is EMI available?
+95,emi_finance,emi_finance,No-cost EMI available?
+96,emi_finance,emi_finance,Minimum purchase for EMI?
+97,emi_finance,emi_finance,Is EMI available?
+98,emi_finance,emi_finance,No-cost EMI available?
+99,emi_finance,emi_finance,Minimum purchase for EMI?
+100,emi_finance,emi_finance,Is EMI available?

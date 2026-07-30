@@ -1,0 +1,33 @@
+{
+  "name": "bs3-electronics-backend",
+  "version": "1.0.0",
+  "description": "Backend API for BS3 Electronics E-Commerce Website with KathaaAI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node seed-flipkart.js && node seed-questions.js",
+    "seed:flipkart": "node seed-flipkart.js",
+    "seed:questions": "node seed-questions.js",
+    "seed:curated": "node seed.js"
+  },
+  "keywords": [
+    "mern",
+    "ecommerce",
+    "electronics",
+    "kathaaai",
+    "gemini"
+  ],
+  "author": "BS3 Electronics Team",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1"
+  }
+}

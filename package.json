@@ -1,0 +1,18 @@
+{
+  "name": "bs3-electronics-college-project",
+  "version": "1.0.0",
+  "description": "BS3 Electronics — India's Premier Online Electronics Store with KathaaAI (College Final Year MERN Submission)",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "seed": "node backend/seed-flipkart.js && node backend/seed-questions.js",
+    "seed:flipkart": "node backend/seed-flipkart.js",
+    "seed:questions": "node backend/seed-questions.js",
+    "seed:curated": "node backend/seed.js",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "start": "node backend/server.js"
+  },
+  "author": "BS3 Electronics Engineering Team",
+  "license": "MIT"
+}

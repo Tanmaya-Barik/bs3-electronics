@@ -1,0 +1,101 @@
+id,category,intent,question
+1,privacy_security,privacy_security,Is my payment secure?
+2,privacy_security,privacy_security,How is my data used?
+3,privacy_security,privacy_security,Can I delete my account?
+4,privacy_security,privacy_security,Is my payment secure?
+5,privacy_security,privacy_security,How is my data used?
+6,privacy_security,privacy_security,Can I delete my account?
+7,privacy_security,privacy_security,Is my payment secure?
+8,privacy_security,privacy_security,How is my data used?
+9,privacy_security,privacy_security,Can I delete my account?
+10,privacy_security,privacy_security,Is my payment secure?
+11,privacy_security,privacy_security,How is my data used?
+12,privacy_security,privacy_security,Can I delete my account?
+13,privacy_security,privacy_security,Is my payment secure?
+14,privacy_security,privacy_security,How is my data used?
+15,privacy_security,privacy_security,Can I delete my account?
+16,privacy_security,privacy_security,Is my payment secure?
+17,privacy_security,privacy_security,How is my data used?
+18,privacy_security,privacy_security,Can I delete my account?
+19,privacy_security,privacy_security,Is my payment secure?
+20,privacy_security,privacy_security,How is my data used?
+21,privacy_security,privacy_security,Can I delete my account?
+22,privacy_security,privacy_security,Is my payment secure?
+23,privacy_security,privacy_security,How is my data used?
+24,privacy_security,privacy_security,Can I delete my account?
+25,privacy_security,privacy_security,Is my payment secure?
+26,privacy_security,privacy_security,How is my data used?
+27,privacy_security,privacy_security,Can I delete my account?
+28,privacy_security,privacy_security,Is my payment secure?
+29,privacy_security,privacy_security,How is my data used?
+30,privacy_security,privacy_security,Can I delete my account?
+31,privacy_security,privacy_security,Is my payment secure?
+32,privacy_security,privacy_security,How is my data used?
+33,privacy_security,privacy_security,Can I delete my account?
+34,privacy_security,privacy_security,Is my payment secure?
+35,privacy_security,privacy_security,How is my data used?
+36,privacy_security,privacy_security,Can I delete my account?
+37,privacy_security,privacy_security,Is my payment secure?
+38,privacy_security,privacy_security,How is my data used?
+39,privacy_security,privacy_security,Can I delete my account?
+40,privacy_security,privacy_security,Is my payment secure?
+41,privacy_security,privacy_security,How is my data used?
+42,privacy_security,privacy_security,Can I delete my account?
+43,privacy_security,privacy_security,Is my payment secure?
+44,privacy_security,privacy_security,How is my data used?
+45,privacy_security,privacy_security,Can I delete my account?
+46,privacy_security,privacy_security,Is my payment secure?
+47,privacy_security,privacy_security,How is my data used?
+48,privacy_security,privacy_security,Can I delete my account?
+49,privacy_security,privacy_security,Is my payment secure?
+50,privacy_security,privacy_security,How is my data used?
+51,privacy_security,privacy_security,Can I delete my account?
+52,privacy_security,privacy_security,Is my payment secure?
+53,privacy_security,privacy_security,How is my data used?
+54,privacy_security,privacy_security,Can I delete my account?
+55,privacy_security,privacy_security,Is my payment secure?
+56,privacy_security,privacy_security,How is my data used?
+57,privacy_security,privacy_security,Can I delete my account?
+58,privacy_security,privacy_security,Is my payment secure?
+59,privacy_security,privacy_security,How is my data used?
+60,privacy_security,privacy_security,Can I delete my account?
+61,privacy_security,privacy_security,Is my payment secure?
+62,privacy_security,privacy_security,How is my data used?
+63,privacy_security,privacy_security,Can I delete my account?
+64,privacy_security,privacy_security,Is my payment secure?
+65,privacy_security,privacy_security,How is my data used?
+66,privacy_security,privacy_security,Can I delete my account?
+67,privacy_security,privacy_security,Is my payment secure?
+68,privacy_security,privacy_security,How is my data used?
+69,privacy_security,privacy_security,Can I delete my account?
+70,privacy_security,privacy_security,Is my payment secure?
+71,privacy_security,privacy_security,How is my data used?
+72,privacy_security,privacy_security,Can I delete my account?
+73,privacy_security,privacy_security,Is my payment secure?
+74,privacy_security,privacy_security,How is my data used?
+75,privacy_security,privacy_security,Can I delete my account?
+76,privacy_security,privacy_security,Is my payment secure?
+77,privacy_security,privacy_security,How is my data used?
+78,privacy_security,privacy_security,Can I delete my account?
+79,privacy_security,privacy_security,Is my payment secure?
+80,privacy_security,privacy_security,How is my data used?
+81,privacy_security,privacy_security,Can I delete my account?
+82,privacy_security,privacy_security,Is my payment secure?
+83,privacy_security,privacy_security,How is my data used?
+84,privacy_security,privacy_security,Can I delete my account?
+85,privacy_security,privacy_security,Is my payment secure?
+86,privacy_security,privacy_security,How is my data used?
+87,privacy_security,privacy_security,Can I delete my account?
+88,privacy_security,privacy_security,Is my payment secure?
+89,privacy_security,privacy_security,How is my data used?
+90,privacy_security,privacy_security,Can I delete my account?
+91,privacy_security,privacy_security,Is my payment secure?
+92,privacy_security,privacy_security,How is my data used?
+93,privacy_security,privacy_security,Can I delete my account?
+94,privacy_security,privacy_security,Is my payment secure?
+95,privacy_security,privacy_security,How is my data used?
+96,privacy_security,privacy_security,Can I delete my account?
+97,privacy_security,privacy_security,Is my payment secure?
+98,privacy_security,privacy_security,How is my data used?
+99,privacy_security,privacy_security,Can I delete my account?
+100,privacy_security,privacy_security,Is my payment secure?
