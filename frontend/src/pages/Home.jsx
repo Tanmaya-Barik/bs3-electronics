@@ -19,8 +19,8 @@ const Home = ({ onOpenKathaaAI }) => {
           api.get('/products/categories'),
           api.get('/products?sortBy=rating-desc&limit=8')
         ]);
-        setCategories(catsRes.data || []);
-        setFeaturedProducts(prodsRes.data.products || []);
+        setCategories(Array.isArray(catsRes.data) ? catsRes.data : []);
+        setFeaturedProducts(Array.isArray(prodsRes.data?.products) ? prodsRes.data.products : (Array.isArray(prodsRes.data) ? prodsRes.data : []));
       } catch (err) {
         console.error('Home page load error:', err);
       } finally {

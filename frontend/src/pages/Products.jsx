@@ -45,7 +45,7 @@ const Products = () => {
         }).toString();
 
         const res = await api.get(`/products?${query}`);
-        setProducts(res.data.products || []);
+        setProducts(Array.isArray(res.data?.products) ? res.data.products : (Array.isArray(res.data) ? res.data : []));
         setTotal(res.data.total || 0);
         setPages(res.data.pages || 1);
       } catch (err) {
