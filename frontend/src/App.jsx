@@ -1,6 +1,6 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { AuthProvider } from './context/AuthContext';
+import React, { useContext } from 'react';
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import { AuthProvider, AuthContext } from './context/AuthContext';
 import { CartProvider } from './context/CartContext';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -34,17 +34,29 @@ function AppContent() {
     clearChat
   } = useChat();
 
+  const { user } = useContext(AuthContext);
+  const navigate = useNavigate();
+
+  const handleOpenKathaaAI = () => {
+    if (!user) {
+      alert('Please Login to your BS3 Electronics account first to talk with KathaaAI Assistant!');
+      navigate('/login');
+      return;
+    }
+    toggleChat();
+  };
+
   return (
     <div className="d-flex flex-column min-vh-100">
       {/* 1. STICKY FLIPKART NAVBAR */}
-      <Navbar onOpenKathaaAI={toggleChat} />
+      <Navbar onOpenKathaaAI={handleOpenKathaaAI} />
 
       {/* 2. MAIN CONTENT AREA */}
       <main className="flex-grow-1 container my-3">
         <Routes>
-          <Route path="/" element={<Home onOpenKathaaAI={toggleChat} />} />
+          <Route path="/" element={<Home onOpenKathaaAI={handleOpenKathaaAI} />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/products/:id" element={<ProductDetails onOpenKathaaAI={toggleChat} />} />
+          <Route path="/products/:id" element={<ProductDetails onOpenKathaaAI={handleOpenKathaaAI} />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/wishlist" element={<Wishlist />} />
           <Route path="/cart" element={<Cart />} />
@@ -74,10 +86,10 @@ function AppContent() {
       </main>
 
       {/* 3. FLIPKART STYLE FOOTER */}
-      <Footer onOpenKathaaAI={toggleChat} />
+      <Footer onOpenKathaaAI={handleOpenKathaaAI} />
 
       {/* 4. KATHAAAI FLOATING CHAT WIDGET & CIRCULAR BUTTON ON EVERY PAGE */}
-      <FloatingChatButton isOpen={isOpen} onClick={toggleChat} />
+      <FloatingChatButton isOpen={isOpen} onClick={handleOpenKathaaAI} />
       <KathaaAIWidget
         isOpen={isOpen}
         onClose={toggleChat}

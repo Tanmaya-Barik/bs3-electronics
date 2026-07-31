@@ -1,10 +1,13 @@
-import React, { useRef, useEffect } from 'react';
-import { FaRobot, FaTimes, FaTrashAlt, FaDownload } from 'react-icons/fa';
+import React, { useRef, useEffect, useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { FaRobot, FaTimes, FaTrashAlt, FaDownload, FaSignInAlt } from 'react-icons/fa';
+import { AuthContext } from '../context/AuthContext';
 import ChatMessage from './ChatMessage';
 import ChatInput from './ChatInput';
 import TypingIndicator from './TypingIndicator';
 
 const KathaaAIWidget = ({ isOpen, onClose, messages, loading, onSend, onClear }) => {
+  const { user } = useContext(AuthContext);
   const chatEndRef = useRef(null);
 
   // Auto-scroll to bottom on message or loading update
@@ -96,17 +99,39 @@ const KathaaAIWidget = ({ isOpen, onClose, messages, loading, onSend, onClear })
         </div>
       </div>
 
-      {/* CHAT BODY */}
-      <div className="kathaa-chat-body">
-        {messages.map((msg) => (
-          <ChatMessage key={msg.id} message={msg} onOptionClick={onSend} />
-        ))}
-        {loading && <TypingIndicator />}
-        <div ref={chatEndRef} />
-      </div>
+      {/* CHAT BODY OR LOGIN REQUIRED PROMPT */}
+      {user ? (
+        <>
+          <div className="kathaa-chat-body">
+            {messages.map((msg) => (
+              <ChatMessage key={msg.id} message={msg} onOptionClick={onSend} />
+            ))}
+            {loading && <TypingIndicator />}
+            <div ref={chatEndRef} />
+          </div>
 
-      {/* BOTTOM INPUT */}
-      <ChatInput onSend={onSend} loading={loading} />
+          {/* BOTTOM INPUT */}
+          <ChatInput onSend={onSend} loading={loading} />
+        </>
+      ) : (
+        <div className="kathaa-chat-body d-flex flex-column align-items-center justify-content-center text-center p-4 bg-light">
+          <div className="bg-warning bg-opacity-25 p-3 rounded-circle mb-3 shadow-sm">
+            <FaRobot className="fs-1 text-warning" />
+          </div>
+          <h6 className="fw-bold text-dark mb-2">Login Required</h6>
+          <p className="text-secondary small mb-4" style={{ maxWidth: '240px' }}>
+            Please login to your BS3 Electronics account to chat with the KathaaAI 24/7 AI Shopping Consultant.
+          </p>
+          <Link
+            to="/login"
+            onClick={onClose}
+            className="btn btn-warning text-dark fw-bold px-4 py-2 shadow-sm rounded-pill d-flex align-items-center gap-2"
+          >
+            <FaSignInAlt />
+            <span>Login / Create Account</span>
+          </Link>
+        </div>
+      )}
     </div>
   );
 };
