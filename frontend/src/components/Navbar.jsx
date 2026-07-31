@@ -15,7 +15,26 @@ const Navbar = ({ onOpenKathaaAI }) => {
   const navigate = useNavigate();
   const location = useLocation();
 
+  const handleDrawerNavigate = (path) => {
+    const offcanvasEl = document.getElementById('bs3SidebarDrawer');
+    if (offcanvasEl) {
+      const bsOffcanvas = window.bootstrap?.Offcanvas?.getInstance(offcanvasEl);
+      if (bsOffcanvas) {
+        bsOffcanvas.hide();
+      } else {
+        const closeBtn = offcanvasEl.querySelector('[data-bs-dismiss="offcanvas"]');
+        closeBtn?.click();
+      }
+    }
+    navigate(path);
+  };
+
   const handleLogout = () => {
+    const offcanvasEl = document.getElementById('bs3SidebarDrawer');
+    if (offcanvasEl) {
+      const bsOffcanvas = window.bootstrap?.Offcanvas?.getInstance(offcanvasEl);
+      bsOffcanvas?.hide();
+    }
     logout();
     navigate('/');
   };
@@ -229,47 +248,47 @@ const Navbar = ({ onOpenKathaaAI }) => {
           <div className="list-group list-group-flush">
             
             {/* ACCOUNT DETAILS */}
-            <Link 
-              to="/profile" 
-              className="list-group-item list-group-item-action bg-transparent text-white border-secondary py-3 d-flex align-items-center gap-3"
-              data-bs-dismiss="offcanvas"
+            <button 
+              type="button"
+              onClick={() => handleDrawerNavigate('/profile')}
+              className="list-group-item list-group-item-action bg-transparent text-white border-secondary py-3 d-flex align-items-center gap-3 border-0 text-start w-100"
             >
               <FaUserCircle className="text-warning fs-5" />
               <span className="fw-semibold">Account Details</span>
-            </Link>
+            </button>
 
             {/* ORDERS */}
-            <Link 
-              to="/orders" 
-              className="list-group-item list-group-item-action bg-transparent text-white border-secondary py-3 d-flex align-items-center gap-3"
-              data-bs-dismiss="offcanvas"
+            <button 
+              type="button"
+              onClick={() => handleDrawerNavigate('/orders')}
+              className="list-group-item list-group-item-action bg-transparent text-white border-secondary py-3 d-flex align-items-center gap-3 border-0 text-start w-100"
             >
               <FaBoxOpen className="text-info fs-5" />
               <span className="fw-semibold">My Orders</span>
-            </Link>
+            </button>
 
             {/* SETTINGS */}
-            <Link 
-              to="/profile" 
-              className="list-group-item list-group-item-action bg-transparent text-white border-secondary py-3 d-flex align-items-center gap-3"
-              data-bs-dismiss="offcanvas"
+            <button 
+              type="button"
+              onClick={() => handleDrawerNavigate('/profile')}
+              className="list-group-item list-group-item-action bg-transparent text-white border-secondary py-3 d-flex align-items-center gap-3 border-0 text-start w-100"
             >
               <FaCog className="text-success fs-5" />
               <div className="d-flex flex-column">
                 <span className="fw-semibold">Settings & Preferences</span>
                 <small className="text-muted" style={{ fontSize: '0.7rem' }}>Theme, Demo College Mode, Warranty</small>
               </div>
-            </Link>
+            </button>
 
             {/* BROWSE PRODUCTS */}
-            <Link 
-              to="/products" 
-              className="list-group-item list-group-item-action bg-transparent text-white border-secondary py-3 d-flex align-items-center gap-3"
-              data-bs-dismiss="offcanvas"
+            <button 
+              type="button"
+              onClick={() => handleDrawerNavigate('/products')}
+              className="list-group-item list-group-item-action bg-transparent text-white border-secondary py-3 d-flex align-items-center gap-3 border-0 text-start w-100"
             >
               <FaThLarge className="text-light fs-5" />
               <span className="fw-semibold">Explore Products</span>
-            </Link>
+            </button>
 
             {/* ASK KATHAA AI */}
             <button
@@ -281,7 +300,7 @@ const Navbar = ({ onOpenKathaaAI }) => {
                 }
                 onOpenKathaaAI();
               }}
-              className="list-group-item list-group-item-action bg-transparent text-white border-secondary py-3 d-flex align-items-center gap-3 border-0 text-start"
+              className="list-group-item list-group-item-action bg-transparent text-white border-secondary py-3 d-flex align-items-center gap-3 border-0 text-start w-100"
             >
               <FaRobot className="text-warning fs-5" />
               <div className="d-flex flex-column">
@@ -295,22 +314,22 @@ const Navbar = ({ onOpenKathaaAI }) => {
           <div className="p-3 border-top border-secondary mt-auto">
             {user ? (
               <button 
+                type="button"
                 onClick={handleLogout} 
-                data-bs-dismiss="offcanvas"
                 className="btn btn-outline-danger w-100 fw-bold d-flex align-items-center justify-content-center gap-2 py-2"
               >
                 <FaSignOutAlt />
                 <span>Logout of Account</span>
               </button>
             ) : (
-              <Link 
-                to="/login" 
-                data-bs-dismiss="offcanvas"
+              <button 
+                type="button"
+                onClick={() => handleDrawerNavigate('/login')}
                 className="btn btn-warning w-100 text-dark fw-bold d-flex align-items-center justify-content-center gap-2 py-2 shadow-sm"
               >
                 <FaSignInAlt />
                 <span>Login / Create Account</span>
-              </Link>
+              </button>
             )}
             <div className="text-center mt-2">
               <small className="text-muted" style={{ fontSize: '0.68rem' }}>
