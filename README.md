@@ -1,6 +1,6 @@
 # 🛒 BS3 Electronics — India's Premier Online Electronics Store with KathaaAI
 
-**College Final Year Project Submission | Full Stack MERN + Google Gemini AI Integration**
+**College training program  Project Submission | Full Stack MERN + Google Gemini AI Integration**
 
 ---
 
@@ -8,13 +8,7 @@
 
 **BS3 Electronics** is a full-featured, production-quality online electronics store built on the **MERN Stack** (MongoDB, Express.js, React, Node.js). 
 
-A core feature of this platform is **KathaaAI**, an intelligent AI Shopping Assistant powered by the **Google Gemini API**. Unlike traditional e-commerce platforms that rely on third-party SaaS chatbots (such as VartaAI or Intercom), **KathaaAI is natively integrated** into the BS3 Electronics application codebase.
-
-### 💡 Why Custom MERN Chatbot (KathaaAI) > 3rd Party Widgets?
-1. **Full Database Awareness:** KathaaAI directly queries the live MongoDB database to fetch real-time prices, stock levels, specs, and warranty terms.
-2. **Interactive UI Component Embedding:** When KathaaAI recommends an electronics item, it renders **interactive Product Cards** inside the chat bubble with an instant **"Add to Cart"** button.
-3. **Zero Security & API Key Exposure:** The Google Gemini API Key is stored securely on the Node.js/Express backend server (`/api/chat`). No keys are exposed in the client-side JavaScript bundle.
-4. **Built-in Resilient Fallback Engine:** If offline or if an API limit is reached, KathaaAI automatically switches to its on-premise local intelligence engine, ensuring a **100% reliable demonstration** during college evaluation.
+A core feature of this platform is **KathaaAI**, an intelligent AI Shopping Assistant powered by the **Google Gemini API**, **KathaaAI is natively integrated** into the BS3 Electronics application codebase.
 
 ---
 
@@ -170,3 +164,12 @@ When demonstrating this project during final evaluation, follow these 5 steps:
 - **Domain:** Web Development & Applied Artificial Intelligence
 - **Technology:** MERN Stack + Google Gemini API (`gemini-1.5-flash`)
 - **Status:** Complete & Ready for Final Evaluation
+
+## 👥 Contributors For the project:
+| Name | Role | Responsibilities |
+| :--- | :--- | :--- |
+| **Sabhya Ranjan Sethy** | 👑 **Group Leader** | Project management and evaluation coordination |
+| **Tanmaya Barik** | 💻 **Developer** | Full-stack MERN development, Express server, and KathaaAI Gemini integration |
+| **Bighnesh Pradhan** | 🔍 **Research & Data Integration** | 3,000-question FAQ dataset curation and MongoDB catalog RAG pipeline |
+| **Saswat Das** | 🎨 **UI/UX Designer** | Flipkart-inspired light theme, chat bubble interface, and interactive cards |
+| **Sritam Mahanta** | 🧪 **Quality Assurance (QA) & Documentation** | Testing chat accuracy, UI responsiveness, report writing, and documentation |
